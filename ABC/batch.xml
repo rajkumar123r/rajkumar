@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TESTNG.sample_test1"/>
+      <class name="TESTNG.testNG_priority"/>
+      <class name="TESTNG.TESTNG_invocation"/>
+      <class name="TESTNG.parllel_execution_class1"/>
+      <class name="TESTNG.soft_assert"/>
+      <class name="TESTNG.parllel_execution_class2"/>
+      <class name="TESTNG.testng_basic"/>
+      <class name="TESTNG.Annotation_flow"/>
+      <class name="TESTNG.Hard_Assert"/>
+      <class name="TESTNG.testNG_enable"/>
+      <class name="TESTNG.sample_test2"/>
+      <class name="TESTNG.sample_test3"/>
+      <class name="TESTNG.testNG_fail"/>
+      <class name="TESTNG.multi_browser1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
